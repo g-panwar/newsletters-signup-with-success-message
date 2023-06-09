@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+ }
+ body{
+    height:1080px;
+    width:1440px;
+    background-color: #36384D;
+    font-family: 'Roboto';
+ }
+ #main-box{
+   position: absolute;
+   width: 932px;
+   height: 642px;
+   left: 254px;
+   top: 219px;
+   background: #FFFFFF;
+   border-radius: 40px;
+ }
+ #main-box h1{
+     position:absolute;
+     top:109px;
+     left:91px;
+     font-size:55px;
+     color:#36384D
+ }
+#sub-heading{
+    position:absolute;
+    left:91px;
+    top:197px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #36384D;
+
+}
+#main-box ul{
+     position:absolute;
+     top:269px;
+     list-style:none;
+     left:91px;
+     width:400px;
+     border-radius:40px;
+
+}
+ul svg{
+  display:inline;
+}
+#main-box ul li{
+      display:flex;
+      padding:7px;
+      
+      
+}
+#main-box ul li p{
+   margin-left:17px;
+   text-align:center;
+
+}
+label,input{
+  display:block;
+}
+#subscribe{
+     position:absolute;
+     top:400px;
+     left:91px;
+}
+label{
+  font-size:11px;
+  line-height: 13px;
+  letter-spacing:0.05em;
+
+}
+#email{
+    height:55px;
+    width:376px;
+    border-radius: 6px;
+    margin-top:12px;
+    padding-left:10px;
+   
+}
+#submit-btn{
+   height:55px;
+   width:376px;
+   background-color:#36384D;
+   border-radius:7px;
+   margin-top:25px;
+   border:none;
+   color:white;
+   text-align:center;
+}
+#submit-btn:hover{
+  background: linear-gradient(270deg, #FF6A3A 0%, #FF5670 100%);
+  filter: drop-shadow(11px 15px 38px #FFBEBA);
+}
+#left-content{
+    position:absolute;
+    left:510px;
+    top:25px;
+
+}
+#submit-link{
+   text-decoration: none;
+}
+.alert{
+      position:absolute;
+      left:260px;
+      top:0px;
+      color: #FF5670 ;
+}
+.message-box{
+          position:absolute;
+          top:280px;
+          left:468px;
+
+           height:521px;
+           width:504px;
+           background-color: white;
+           border-radius:35px;
+       }
+     #my-svg{
+           margin:48px 0 0 64px;
+       }
+       .message-box h1{
+           margin:40px 0 0 64px;
+           font-weight: 700;
+          font-size: 56px;
+           line-height: 100.69%;
+           color:#36384D;
+       }
+       .message-box p{
+         margin:26px 0 0 64px;
+         color:#36384D;
+         font-weight: 400;
+         font-size: 16px;
+         line-height:150%;
+       }
+        
+       #dismiss-btn{
+            width:376px;
+           height:56px;
+           background-color: #36384D;
+           border-radius: 7px;
+           margin:46px 0 0 64px;
+           color:white;
+           border:none;
+       }
+       #dismiss-btn:hover{
+            background: linear-gradient(270deg, #FF6A3A 0%, #FF5670 100%);
+           filter: drop-shadow(11px 15px 38px #FFBEBA);;
+       }
+       .message-box a{
+           text-decoration:none;
+       }
+       .my-span{ 
+          font-weight: bold;
+       }
